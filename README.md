@@ -67,7 +67,7 @@ The default story arc uses eight pages:
 <table>
   <tr>
     <td width="34%" align="center">
-      <img src="docs/showcase-prompt-engineer-cover-qingchen.png" width="300" alt="Prompt Engineer AI explainer comic cover with QINGCHEN watermark" />
+      <img src="docs/showcase-prompt-engineer-cover-qingchen.jpg" width="300" alt="Prompt Engineer AI explainer comic cover with QINGCHEN watermark" />
     </td>
     <td width="66%" valign="top">
       <h3>Prompt Engineer — an 8-page AI explainer comic</h3>
