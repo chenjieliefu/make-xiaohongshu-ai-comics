@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/hero.svg" alt="Make Xiaohongshu AI Comics" width="100%" />
+  <img src="docs/hero-qingchen.png" alt="Make Xiaohongshu AI Comics — featuring Xiao Cheng and AI Xiao Lan" width="100%" />
 </div>
 
 <p align="center">
@@ -23,9 +23,9 @@
 
 <strong>Make Xiaohongshu AI Comics</strong> is an open-source Codex Skill for producing swipeable AI knowledge comics. It standardizes the reasoning-heavy parts of the workflow while leaving the visual direction open to every creator.
 
-It does not ship with a house style, fixed palette, reference artwork, or bundled characters. Each project derives its own visual language from the user's prompt or reference images, then freezes that language in a project-specific style bible.
+It does not prescribe a house style, fixed palette, or bundled cast. The documentation includes creator-owned showcase artwork, but those assets are not used by the workflow or copied into new projects. Each project derives its own visual language from the user's prompt or reference images, then freezes that language in a project-specific style bible.
 
-> 中文简介：这是一个风格自适应的 Codex Skill，用于把 AI 概念转化为适合小红书发布的漫画科普笔记。它不会绑定任何固定画风或角色，而是为每个项目重新建立画风圣经、角色圣经、分镜、出图提示词和质量检查流程。
+> 中文简介：这是一个风格自适应的 Codex Skill，用于把 AI 概念转化为适合小红书发布的漫画科普笔记。页面中的作品仅作为创作者案例展示，不会成为 Skill 的默认画风或角色；每个新项目都会重新建立自己的画风圣经、角色圣经、分镜、出图提示词和质量检查流程。
 
 ## Why use it?
 
@@ -61,6 +61,27 @@ The default story arc uses eight pages:
 6. Evaluation and limits
 7. Misconceptions
 8. Actionable takeaway
+
+## Made with this workflow
+
+<table>
+  <tr>
+    <td width="34%" align="center">
+      <img src="docs/showcase-prompt-engineer-cover-qingchen.png" width="300" alt="Prompt Engineer AI explainer comic cover with QINGCHEN watermark" />
+    </td>
+    <td width="66%" valign="top">
+      <h3>Prompt Engineer — an 8-page AI explainer comic</h3>
+      <p>This finished cover demonstrates the workflow in a creator-selected visual direction:</p>
+      <ul>
+        <li>original recurring characters: Xiao Cheng and AI Xiao Lan</li>
+        <li>mobile-readable Chinese copy and a clear curiosity gap</li>
+        <li>character continuity across a complete swipeable story</li>
+        <li>research-first definitions, boundaries, and misconceptions</li>
+      </ul>
+      <p><strong>Showcase only:</strong> this visual style and cast belong to the example project. The open-source Skill remains style-adaptive and does not use them as defaults.</p>
+    </td>
+  </tr>
+</table>
 
 ## Quick start
 
@@ -156,6 +177,7 @@ The Skill is designed to keep the comic fun without turning AI concepts into mag
 .
 ├── SKILL.md                         # Core workflow and trigger description
 ├── agents/openai.yaml               # Codex UI metadata
+├── docs/                             # README banner and showcase-only artwork
 ├── references/
 │   ├── style-intake.md              # Build a style bible from text or images
 │   ├── character-bible-template.md  # Freeze recurring character identity

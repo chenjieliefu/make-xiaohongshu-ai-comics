@@ -15,7 +15,7 @@ Read only the references needed for the task:
 - Read [image-prompts.md](references/image-prompts.md) before generating or editing images.
 - Read [new-character-protocol.md](references/new-character-protocol.md) when creating or adding a character.
 
-This Skill intentionally contains no bundled house style, fixed palette, reference art, or named recurring character.
+This Skill's operational instructions intentionally define no bundled house style, fixed palette, or named recurring character. Artwork under `docs/` is showcase-only: never use it as generation input or as a default for a new project unless the user explicitly supplies that artwork and requests continuity.
 
 For image generation or editing, also use the available `imagegen` skill and follow its instructions. Inspect every local image reference or edit target before using it. Use the built-in image generation path unless the user explicitly requests another path.
 
@@ -112,4 +112,3 @@ Report saved paths and state the image-generation path used.
 - Do not claim prompting alone can repair missing facts, unsuitable models, missing tools, or undefined goals.
 - Do not finalize known text corruption.
 - Do not use source citations inside the art unless requested; place them in source notes or the post caption.
-
