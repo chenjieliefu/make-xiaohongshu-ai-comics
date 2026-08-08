@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest a style-neutral workflow or quality improvement
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Creator need
+      description: What repeated problem should this Skill solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Explain the workflow, reference, or script change.
+    validations:
+      required: true
+  - type: textarea
+    id: neutrality
+    attributes:
+      label: Style-adaptive impact
+      description: How will the proposal avoid imposing one visual style or character system?
+

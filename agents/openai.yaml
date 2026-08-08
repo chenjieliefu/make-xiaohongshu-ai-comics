@@ -1,0 +1,4 @@
+interface:
+  display_name: "Xiaohongshu AI Comic Maker"
+  short_description: "Turn AI concepts into adaptable Xiaohongshu comics"
+  default_prompt: "Use $make-xiaohongshu-ai-comics to create an AI explainer comic in my chosen visual style."

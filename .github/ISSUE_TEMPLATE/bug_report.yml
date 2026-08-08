@@ -1,0 +1,33 @@
+name: Bug report
+description: Report incorrect behavior, broken instructions, or a scaffolding problem
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the behavior and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include the prompt, command, or Skill section involved.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Codex surface, OS, and relevant tool details.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Submission check
+      options:
+        - label: I removed private artwork, credentials, and personal data.
+          required: true
+
