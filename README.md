@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/hero-qingchen.png" alt="Make Xiaohongshu AI Comics — featuring Xiao Cheng and AI Xiao Lan" width="100%" />
+  <img src="docs/hero-qingchen-watermarked.png" alt="Make Xiaohongshu AI Comics — featuring Xiao Cheng and AI Xiao Lan with a subtle QINGCHEN watermark pattern" width="100%" />
 </div>
 
 <p align="center">
