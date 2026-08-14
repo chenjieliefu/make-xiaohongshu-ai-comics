@@ -1,3 +1,5 @@
+**English** | [简体中文](README.zh-CN.md)
+
 <div align="center">
   <img src="docs/hero-qingchen-watermarked.png" alt="Make Xiaohongshu AI Comics — featuring Xiao Cheng and AI Xiao Lan with a subtle QINGCHEN watermark pattern" width="100%" />
 </div>
@@ -25,7 +27,6 @@
 
 It does not prescribe a house style, fixed palette, or bundled cast. The documentation includes creator-owned showcase artwork, but those assets are not used by the workflow or copied into new projects. Each project derives its own visual language from the user's prompt or reference images, then freezes that language in a project-specific style bible.
 
-> 中文简介：这是一个风格自适应的 Codex Skill，用于把 AI 概念转化为适合小红书发布的漫画科普笔记。页面中的作品仅作为创作者案例展示，不会成为 Skill 的默认画风或角色；每个新项目都会重新建立自己的画风圣经、角色圣经、分镜、出图提示词和质量检查流程。
 
 ## Why use it?
 
